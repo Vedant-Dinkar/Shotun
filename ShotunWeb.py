@@ -1,5 +1,6 @@
 import string
 import random
+from github import Github
 
 f=open("SHOTUNDATA.txt",'a+')
 
@@ -43,7 +44,8 @@ elif long not in inp:
         f.write(short)
         f.write("\n")
 
+repo.create_git_ref("refs/heads/"+new)
+
 print(short)
 
 f.close()
-            
