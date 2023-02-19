@@ -8,4 +8,4 @@ First, the program sends the keys to bit.ly and then it takes out the link.
 It has two versions:
 1. CLI - Give a long link as input and get a short URL as output.
 2. Tap(Tkinter) Application - It consists of a button that automatically reads your clipboard and also, automatically copies the shorter URL to your clipboard.
-
+Try not to control the computer while the program is running.
