@@ -1,6 +1,6 @@
-Shotun Web Application was partially completed. The version with Flask Module couldn't be completed.
+Shotun Web Application was partially completed. The version with Flask Module and another Server couldn't be completed.
 It contains some logic regarding the back-end programming.
-The program has the logic that the data is stored on the Github Repository, inside the SHOTUNDATA.txt folder and according to the short-link entered by the user(Example: https://vedant-dinkar.github.io/Shotun/ZSfyNhOu, randomly generated using the Random module), the webpage of Shotun was supposed to read the incorrect URL(Since the sub-directory of ZSfyNhOu does not exist) and then redirect to the corresponding original long link, also by trying to use the requests library.
+The program has the logic that the data is stored on the Github Repository, inside the SHOTUNDATA.txt folder and according to the short-link entered by the user(Example: https://vedant-dinkar.github.io/Shotun/ZSfyNhOu, randomly generated using the Random module), the webpage of Shotun was supposed to read the incorrect part URL(ZSfyNhOu, Since the sub-directory of ZSfyNhOu does not exist) and then redirect to the corresponding original long link corresponding to ZSfyNhOu, also by trying to use the requests library.
 The short URL is randomly generated(To be redirected) and its corresponding data is written onto the SHOTUNDATA.txt file.
 
 The Shotun Scraping Application uses the Selenium Module in order to scrape data from bit.ly.
